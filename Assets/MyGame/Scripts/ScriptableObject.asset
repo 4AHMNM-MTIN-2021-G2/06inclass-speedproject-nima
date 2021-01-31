@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 175db5fbd2e622e429d1a22d0385a084, type: 3}
-  m_Name: nina
+  m_Name: 
   m_EditorClassIdentifier: 
   yourName: 
-  time: 2.1975868
-  randomValue: 5.9180636
+  time: 0
+  randomValue: 0
