@@ -769,7 +769,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1586621131}
         m_TargetAssemblyTypeName: SpeedProject, Assembly-CSharp
-        m_MethodName: LoadMain
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -912,6 +912,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2cb941461ceb9b408945a1b4356aa0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InputField: {fileID: 514385078}
+  nextSceneBtn: {fileID: 602345620}
+  red: {r: 1, g: 0, b: 0, a: 0}
+  yourName: {fileID: 48781659}
 --- !u!4 &1586621132
 Transform:
   m_ObjectHideFlags: 0

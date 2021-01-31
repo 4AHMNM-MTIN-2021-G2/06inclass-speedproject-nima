@@ -4,30 +4,31 @@ using UnityEngine.SceneManagement;
 
 public class SpeedProject : MonoBehaviour
 {
-    public void LoadMain ()
+    public InputField InputField;
+    public Button nextSceneBtn;
+    public Color red;
+    public Text yourName;
+  
+
+    public void LoadScene ()
     {
-        SceneManager.LoadScene("MainScene");
+        if(InputField.GetComponent<InputField>().text == "")
+            {
+            InputField.GetComponent<Image>().color = Color.red;
+            }
+        else
+            {
+               yourName.name = InputField.GetComponent<InputField>().text;
+                SceneManager.LoadScene("MainScene");
+            }
+        
+           
     }
 
-    public void LoadEnd()
-    {
-        SceneManager.LoadScene("EndScene");
-    }
 
-    public void LoadIntro()
-    {
-        SceneManager.LoadScene("IntroScene");
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
+    
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+
+
