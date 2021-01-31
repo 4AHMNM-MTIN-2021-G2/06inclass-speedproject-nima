@@ -915,7 +915,7 @@ MonoBehaviour:
   InputField: {fileID: 514385078}
   nextSceneBtn: {fileID: 602345620}
   red: {r: 1, g: 0, b: 0, a: 0}
-  yourName: {fileID: 48781659}
+  myObject: {fileID: 11400000, guid: ffc81acd0e49e8d4ea45ee15ebe1e887, type: 2}
 --- !u!4 &1586621132
 Transform:
   m_ObjectHideFlags: 0

@@ -7,8 +7,9 @@ public class SpeedProject : MonoBehaviour
     public InputField InputField;
     public Button nextSceneBtn;
     public Color red;
-    public Text yourName;
-  
+   // public Text yourName;
+    public ScriptObject myObject;
+
 
     public void LoadScene ()
     {
@@ -18,7 +19,7 @@ public class SpeedProject : MonoBehaviour
             }
         else
             {
-               yourName.name = InputField.GetComponent<InputField>().text;
+               myObject.name = InputField.GetComponent<InputField>().text;
                 SceneManager.LoadScene("MainScene");
             }
         
