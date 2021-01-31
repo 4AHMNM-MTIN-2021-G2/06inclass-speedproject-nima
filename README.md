@@ -1,28 +1,55 @@
-# Template2D-Unity202015f1
+# 06inclass-speedproject-nima
 
 ### Project description: 
-Introduction/Project summary 
+
+The goal of this project is to create a "speed test" containing a value generator and a timer.
+Beside that the player has to state their name, so it will be shown while generating as well as at the end result.
+Main part of this project is the use of a scriptable object so that certain values can be used over different scenes. 
 
 ### Development platform: 
-(OS, Unity Version, Visual Studio Version, used SDKs)
+
+* Windows 10
+* Unity Version: 2020.1.5f1
+* Visual Studio 2019
 
 ### Target platform: 
-WebGL, Mobile, VR Device incl. reference resolution 
+
+* 2D WebGL (960 x 600 screenindependent)
 
 ### Visuals: 
-Screenshots (concept and experience), Video
+
+<div>
+<img src = "./Screenshots/Intro.PNG">
+<div>
+
+<div>
+<img src = "./Screenshots/Main.PNG">
+<div>
+
+<div>
+<img src = "./Screenshots/End.PNG">
+<div>
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
 
-### Third party material: 
-(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+* none
+
+### Third party material:
+ 
+* Template2D-Unity202015f1
 
 ### Project state: 
-incl. progress in percent
+
+* 100 %
 
 ### Limitations: 
 
+* none
+
 ### Lessons Learned: 
 
-Copyright by you :)
+* further C# basics
+* if/ else statements
+* scriptable objects
+
+Copyright by nima
