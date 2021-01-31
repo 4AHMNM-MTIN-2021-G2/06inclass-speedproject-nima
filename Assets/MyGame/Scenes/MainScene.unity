@@ -149,14 +149,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 175042985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2cb941461ceb9b408945a1b4356aa0b, type: 3}
+  m_Script: {fileID: 11500000, guid: d7c00ffe34e5f9844a0f3bf41f7ca504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InputField: {fileID: 0}
-  nextSceneBtn: {fileID: 1845840045}
-  red: {r: 0, g: 0, b: 0, a: 0}
-  yourName: {fileID: 876545513}
+  myObject: {fileID: 11400000, guid: ffc81acd0e49e8d4ea45ee15ebe1e887, type: 2}
   name: {fileID: 876545513}
+  timer: {fileID: 790202904}
+  randomValue: {fileID: 413979705}
 --- !u!4 &175042987
 Transform:
   m_ObjectHideFlags: 0
@@ -1022,7 +1021,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 175042986}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SpeedProject, Assembly-CSharp
         m_MethodName: LoadEnd
         m_Mode: 1
